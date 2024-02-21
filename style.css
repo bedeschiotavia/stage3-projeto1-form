@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Staatliches&display=swap');
 
 * {
   margin: 0;
@@ -23,7 +23,7 @@ body::before {
   top: 0;
   left: 0;
   z-index: -1;
-  background: #121214;
+  background: #535971;
 }
 
 .page {
@@ -32,26 +32,25 @@ body::before {
 }
 
 header {
-  width: 319px;
+  width: 417px;
 
   margin-top: 74px;
+
+  color: white;
 }
 
 header h1 {
-  font-family: 'Archivo', sans-serif;
-  font-weight: bold;
-  font-size: 36px;
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
   line-height: 42px;
-  color: white;
 
   margin-bottom: 24px;
 }
 
 header p {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 26px;
-
-  color: #42D3FF;
 }
 
 form {
@@ -78,10 +77,11 @@ fieldset {
 }
 
 fieldset legend {
-  font-family: 'Archivo', sans-serif;
+  font-family: "Staatliches", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 34px;
+  color: #535971;
 
   width: 100%;
 
@@ -149,6 +149,15 @@ fieldset legend {
   background-position: right 24px top 50%;
 }
 
+.col-2 {
+  display: flex;
+  gap: 20px;
+}
+
+.col-2 div{
+  width: 100%;
+}
+
 .col-3 {
   display: flex;
   gap: 20px;
@@ -156,6 +165,14 @@ fieldset legend {
 
 .col-3 > div:nth-child(1) {
   width: 100%;
+}
+
+h4 {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color:#535971;
 }
 
 .checkbox-wrapper {
@@ -199,7 +216,7 @@ fieldset legend {
 }
 
 footer {
-  background: #F0F0F4;
+  background: #535971;
 
   height: 136px;
 
@@ -216,11 +233,11 @@ footer {
 
 footer .button {
   height: 56px;
-  background: #04D361;
+  background: #FF5374;
   border: 0;
-  border-radius: 8px;
+  border-radius: 20px;
 
-  font-family: 'Archivo';
+  font-family: "Staatliches", sans-serif;
 
   font-weight: 600;
   font-size: 16px;
