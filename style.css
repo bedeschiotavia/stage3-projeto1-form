@@ -235,5 +235,5 @@ footer .button:hover {
 }
 
 input:invalid {
- border: 1px solid #FF1010;
+  border: 1px solid #FF1010;
 }
